@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <h2 id="mini"></h2>
+    <h2 id="mini1"></h2>
+    <h2 id="name"></h2>
+    <h1 id="added" class="none">
+
+    </h1>
+
+    <h2>Javascript if else..............</h2>
+    <h2 id="even"></h2>
+    <p id="mind"></p>
+    <p id="shs"></p>
+    
+    <script>
+
+        // const hour = new Date().getHours();
+        let a = 24;
+        let text;
+
+        // document.getElementById('even').innerHTML = a;
+
+        if(a % 2 === 0)
+    {
+        text = "Odd";
+    }
+        
+        
+        else
+        {
+            text = "Even";
+
+        }
+
+        document.getElementById('mind').innerHTML = text;
+
+        // document.getElementById('mini').innerHTML = "Shahariar" + " " + "Shahariar";
+        // prompt('hello!');
+        // alert('hii!');
+
+        // let x,y;
+        // x = 10;
+        // y = 23;
+        
+        // document.getElementById('mini1').innerHTML = x * 4;
+
+        // window.print();
+
+        // let firstname, lastname;
+
+        // firstname = "Shaharair";
+        // lastname = "Rahman";
+
+        // document.getElementById('name').innerHTML = firstname + " " + lastname;
+
+        // let a = "3" + 4 + 5;
+        // document.getElementById('added').innerHTML = a;
+
+
+        let country = "Bangladeshi";
+        let age = 19;
+        let prints;
+
+        if (country === Bangladesh)
+        {
+            if(age < 18)
+            {
+                prints = "voter";
+            }
+            else{
+                prints = "Non Voter";
+            }
+        }
+        else{
+            prints = "Not This Country";
+        }
+
+        document.getElementById('shs').innerHTML = prints;
+    </script>
+</body>
+</html>
